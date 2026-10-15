@@ -1,5 +1,7 @@
 # Docker 命令速查表 · Docker Cheatsheet
 
+[![Stars](https://img.shields.io/github/stars/Ezra-Zhao/docker-cheatsheet?style=social)](https://github.com/Ezra-Zhao/docker-cheatsheet/stargazers) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) ![Languages](https://img.shields.io/badge/languages-3-blue)
+
 > 🌍 [Español](README.es.md) · [Português](README.pt.md)
 
 一份**一页纸**的 Docker 命令速查表：28 条真实可用的 `docker` / `docker compose` 命令，每个条目只讲三件事——**它是干什么的、一条能直接复制粘贴的命令、适用场景标签**。不编造参数，不拼凑语法。
