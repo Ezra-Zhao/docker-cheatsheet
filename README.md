@@ -7,6 +7,16 @@ Support & more: [GitHub Sponsors](https://github.com/sponsors/Ezra-Zhao) · [Gum
 
 > 🌍 [Español](README.es.md) · [Português](README.pt.md)
 
+**28 Docker commands you'll actually use — one page, copy-paste ready.** Images, containers, logs, volumes, Compose, cleanup and debugging. Every entry: what it does, one runnable command, when to use it. No made-up flags.
+
+## Try it in 30 seconds
+
+```bash
+docker run -d --name hello -p 8080:80 nginx:1.27   # start nginx in the background
+curl localhost:8080                               # the welcome page means it works
+docker rm -f hello                                # clean up when you're done
+```
+
 一份**一页纸**的 Docker 命令速查表：28 条真实可用的 `docker` / `docker compose` 命令，每个条目只讲三件事——**它是干什么的、一条能直接复制粘贴的命令、适用场景标签**。不编造参数，不拼凑语法。
 
 ## 面向谁
@@ -18,14 +28,6 @@ Support & more: [GitHub Sponsors](https://github.com/sponsors/Ezra-Zhao) · [Gum
 1. 直接看 **[CHEATSHEET.md](CHEATSHEET.md)** ——速查表正文，英文命令全球开发者都无压力。
 2. 先装好 Docker：桌面端用 Docker Desktop，Linux 服务器用 Docker Engine，装完跑 `docker run hello-world` 验证。
 3. 按"镜像 → 容器 → 日志 → 数据卷/网络 → Dockerfile → Compose → 清理 → 调试"的顺序，每个条目亲手敲一遍，一小时就顺手了。
-
-## 先跑起来（30 秒验证环境）
-
-```bash
-docker run -d --name hello -p 8080:80 nginx:1.27   # 起一个 nginx
-curl localhost:8080                               # 看到欢迎页就是成了
-docker rm -f hello                                # 用完删掉
-```
 
 ## 收录了什么
 
